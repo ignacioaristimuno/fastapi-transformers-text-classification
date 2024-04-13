@@ -28,7 +28,7 @@ async def lifespan(app: FastAPI):
 
 # Create API
 app = FastAPI(
-    title="{{cookiecutter.api_title}}", debug=True, version="0.1", lifespan=lifespan
+    title="{{cookiecutter.project_name}}", debug=True, version="0.1", lifespan=lifespan
 )
 
 # Load routers
