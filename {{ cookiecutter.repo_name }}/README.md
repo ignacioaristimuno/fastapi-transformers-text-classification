@@ -1,6 +1,6 @@
 # FastAPI & Transfomers Text Classification template
 
-Cookiecutter template for creating an Transformers Text Classification API with `FastAPI` and `transformers`.
+Cookiecutter template for creating a Transformers Text Classification API with `FastAPI` and `transformers`.
 
 ## Description
 
