@@ -82,7 +82,7 @@ This project template allows you to quickly set up a text classification API usi
     Start the API server:
 
     ```bash
-    python app.py
+    python3 src/api/app.py
     ```
 
 8. Send requests to the API following the usage instructions below.
@@ -92,7 +92,7 @@ This project template allows you to quickly set up a text classification API usi
 1. **Start the API server**:
 
     ```bash
-    python app.py
+    python3 src/api/app.py
     ```
 
 2. **Send requests**:
@@ -102,11 +102,11 @@ This project template allows you to quickly set up a text classification API usi
     - Payload:
         ```json
         {
-        "texts": [
-            "I'm feeling so healthy today!",
-            "My day was not good, but not bad",
-            "I hate when people do this"
-        ]
+            "texts": [
+                "I'm feeling so healthy today!",
+                "My day was not good, but not bad",
+                "I hate when people do this"
+            ]
         }
         ```
     - Example request using cURL:
